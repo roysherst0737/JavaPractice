@@ -1,1 +1,1 @@
-### Personal Practice Space using Java.
+### Personal practice using Java.
