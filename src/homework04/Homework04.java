@@ -6,17 +6,19 @@ import java.util.Scanner;
 public class Homework04 {
 	
 	public static void main(String[] args) {
-		arrAVG();
-		System.out.println("\n===============");
-		reverse();
-		System.out.println("\n===============");
-		vowel();
-		System.out.println("\n===============");
-		borrow();
-		System.out.println("\n===============");
-		dateOfYear();
-		System.out.println("\n===============");
-		score();
+//		arrAVG();
+//		System.out.println("\n===============");
+//		reverse();
+//		System.out.println("\n===============");
+//		reverse2();
+//		System.out.println("\n===============");
+//		vowel();
+//		System.out.println("\n===============");
+//		borrow();
+//		System.out.println("\n===============");
+//		dateOfYear();
+//		System.out.println("\n===============");
+//		score();
 	}
 	
 	/* Q1:
@@ -52,6 +54,13 @@ public class Homework04 {
 		for (int a = s.length(); a > 0 ; a--) {
 			System.out.print(s.charAt(a - 1));
 		}
+	}
+	
+	public static void reverse2() {
+		try (Scanner sc = new Scanner(System.in)) {
+			String s = sc.next();
+			System.out.println(new StringBuffer(s).reverse());
+		}		
 	}
 		
 		
